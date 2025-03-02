@@ -1,0 +1,51 @@
+.details-modal {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: var(--white);
+    border-collapse: separate;
+}
+
+.modal-close-icon {
+    width: 40px;
+    height: 40px;
+    color: var(--blue-dark);
+    cursor: pointer;
+    background-color: var(--white-50);
+    border-radius: 50%;
+}
+
+.details-modal th {
+    padding: 20px;
+    font-size: 1.2rem;
+    color: var(--blue-dark);
+}
+
+.details-modal td {
+    padding: 10px;
+    text-align: center;
+    color: var(--blue-dark);
+    vertical-align: middle;
+
+}
+
+tbody {
+    background-color: var(--white-50);
+}
+
+.details-modal-table-img {
+
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+/* related to comments component ---start */
+.details-modal p{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 1rem;
+    color: var(--blue-dark);
+    background-color: var(--white-50);
+    border-radius: 10px;
+}
+/*  related to comments component ---end*/

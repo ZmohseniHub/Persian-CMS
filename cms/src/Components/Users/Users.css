@@ -1,0 +1,49 @@
+.users {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.users-title {
+  font-size: 2rem;
+  color: var(--blue-dark);
+  margin-bottom: 30px;
+}
+.users-table-wrapper {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--white);
+}
+.users-table {
+  width: 100%;
+}
+.users-table th {
+  padding: 20px 10px 30px 10px;
+  font-size: 1.2rem;
+  color: var(--blue-dark);
+}
+.users-table td {
+  padding: 15px 10px;
+  text-align: center;
+  color: var(--blue-dark);
+  vertical-align: middle;
+}
+.users button {
+  padding: 5px 15px;
+  color: var(--white);
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--blue-light);
+  border-radius: 25px;
+  cursor: pointer;
+}
+.users-table-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+tbody tr {
+  border-bottom: 1px solid var(--blue-light);
+}

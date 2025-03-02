@@ -1,0 +1,30 @@
+.edit-modal{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.edit-modal-form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 20px;
+
+}
+.edit-modal-form h1{
+    font-size: 1.1rem;
+    color: var(--blue-dark);
+    margin-bottom: 15px;
+}
+.edit-modal-btn{
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: var(--white);
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: var(--blue-light);
+}
+

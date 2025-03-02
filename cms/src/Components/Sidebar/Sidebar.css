@@ -1,0 +1,45 @@
+.sidebar {
+  position: fixed;
+  flex: 1;
+  background-color: var(--blue);
+  height: 100vh;
+}
+
+.sidebar-title {
+  padding: 20px 10px;
+  color: var(--white);
+  border-bottom: 3px solid var(--blue-light);
+  text-align: right;
+  font-size: 1.4rem;
+}
+
+.sidebar-links {
+  margin-top: 15px;
+}
+
+.sidebar-links a {
+  position: relative;
+  padding: 15px;
+}
+
+.sidebar-links a.active {
+  background-color: var(--blue-light);
+}
+
+.sidebar-links a:hover {
+  background-color: var(--blue-light);
+}
+
+.sidebar-links a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 7px;
+}
+
+.sidebar-links a:first-child {
+  margin-bottom: 20px;
+}
